@@ -1,0 +1,18 @@
+l a n kie d ys sta n al n a dl brz e gie m
+z u kallu dlzi g oto w yc h p ojsc z a llin
+l y lo  ic s erc a
+lo w l oz yc h p  a w dla
+l ef     l a nie   o ly n a  m nie s p ojrz ale s
+l w oje u s a dlzis  w y z e kly  m e i m ie
+w oja b a uke p o z o sta  ia m  n a b z e g u
+l a z e m  z  lo b a n o w y z a cz n e dlzis lo
+e s e m  u b o gi m  czlo wie kie m
+l loi m  s karb e m  sa re ce g o  o   e
+t  o p  a cy z  lo b a
+l cz ys e s erce
+l  ef     l a nie   o ly n a  m nie s p ojrz ale s
+l w oje u s a dlzis  w y z e kly  m e i m ie
+w oja b a uke p o z o sta  ia m  n a b z e g u
+l  a z e m  z  lo b a n o w y z a cz n e dlzis lo
+
+{'l': 40, ' ': 257, 'a': 37, 'n': 16, 'k': 8, 'i': 23, 'e': 39, 'd': 8, 'y': 14, 's': 21, 't': 5, 'b': 10, 'r': 7, 'z': 28, 'g': 6, 'm': 16, '\n': 16, 'u': 9, 'o': 31, 'w': 12, 'c': 12, 'h': 2, 'p': 7, 'j': 7, 'f': 2}

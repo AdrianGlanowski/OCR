@@ -1,0 +1,22 @@
+3  21o g osla wie mi u o o dzy w duuo1uu  a1b e wie m  d o  ich
+n a1ezy k  ole s!w o  ue bie sk e
+4 3ue g os1 ,w,e  i  ktorzy sie s muu ca   1o o wie m  o  i o e d
+p e oie sze  i
+5 3ue g os1 ,w,e  i c, u  a1b e wie m  o     a w1 ,sne so
+p e u adu a zue u ie
+6 3ue g os1  w e  i  ktorzy 1aukcn  i p  a gm a
+spra wie duu w osc   a1b e wie m  o  i o e d a   asy ce nu
+7 3ue g os1  w,,e  i  uue,ue   i  u o o wie m  o u  mmuos e  dzia
+d e s!ao a
+8 3ue g os1  w e  i czyste g o se  ca  a1b e wie m  ounu 2 o g a
+e gu ad  c b e d a
+9 3ue g os1  w e  i  ktorzy  w oro w adz ja p e k oj  u o o wie m
+e nu b e d a   az w ammi sy  aumu 2 ozy u i
+10 3ue g os1  w e  i  ktorzy c e  o a p  ze slad o w aunue d1a
+spra wie duu w osc   a1b e wie m  d o  ich n uezy kre1es!w o
+m,e bie sk e
+11 3ue g os1  w,e  ije ste sc e  g d y tuu dziej w     uu  g aja i
+przes1  duuu a w as i g d y z m e g o p o w o duu  m o wia
+k1auu 1iw e  w szystk o z1e   a w  s
+
+{'3': 9, ' ': 346, '2': 3, '1': 28, 'o': 54, 'g': 17, 's': 36, 'l': 3, 'a': 42, 'w': 36, 'i': 40, 'e': 76, 'm': 19, 'u': 55, 'd': 22, 'z': 20, 'y': 14, 'b': 9, 'c': 13, 'h': 2, '\n': 20, 'n': 8, 'k': 12, '!': 3, '4': 1, ',': 11, 't': 8, 'r': 9, 'p': 9, '5': 1, '6': 1, '7': 1, '8': 1, '9': 1, 'j': 5, '0': 1}

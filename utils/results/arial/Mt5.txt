@@ -1,0 +1,22 @@
+s   a cud s awwwee   u ucuzw  w d u   u s  a b  wwee   uk     b
+beuk zw  k   es ww  b eb es  e
+z  a k g  s aww eb   k o zy see s   u  e  e bdwwwee   d   b ed a
+p   eeszen
+a k g  s aww eb    s  e k d w e   d n   e w es   s  p  s ad a
+eee   ee
+a a k g  s aww eb   k c zy  a   a   p e una s   e w eu  w ds
+a b  wwee        b ed a nesy  en
+a k g  s aww eb       s e m   e bdwwwee   d       d see d e e
+uk s a p a
+a a k g  s aww eb   zys eeuc se   e  a bc w e        a d ue
+u ad e   b ed a
+a a k g  s aww eb   k o zy wwp d wwedzaje   c kdj  e bdwwwee
+b ed a naz wwa   sw  a    a dzw
+uu a cud s awwwee        zw    e m a   ozes eudwwwa   e u e
+sp ewwweeu  ww s    a b  wwee   uk         e k zw  k d es w d
+b eb esk e
+a   ud s ewwween jk sees  ee  g uy pudzeef wwa    u ag eja
+p zes ad w a  wwas   uuy z   eg d   d w dd u     w a k e    w e
+w szw suk   dk   a wwas
+
+{'s': 41, ' ': 395, 'a': 53, 'c': 7, 'u': 30, 'd': 35, 'w': 77, 'e': 95, 'z': 18, 'b': 23, 'k': 23, '\n': 20, 'g': 9, 'o': 3, 'y': 7, 'p': 8, 'n': 7, 'm': 2, 'j': 4, 'f': 1}

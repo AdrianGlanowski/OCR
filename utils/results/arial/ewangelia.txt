@@ -1,0 +1,21 @@
+f fla p o cz atku b y1o   lo   o f
+a   lo w o b y1o u l og a f
+i f o gie m  b ylo   lo w o
+2    n o b ylo n a p o cz atku u l o g a
+3    sz ystko prz ez flie sie s alo
+a b ez flie g o nic sie nie stalo
+i      l  2
+c o s e s a o
+4     flim  b ylo z ycie 3
+a z ycie b y1o s  ia lo scia 3 lu dfzi
+5 a s wiatlo sc    cie m n o sci s  ie ci
+i cie m n o sc jej nie  og arm ela
+6 f oja wil sie czlo wie k p o sla n y prz ez l o g a
+a n  m u b ylo n a i m ie 4
+7 f rz y sz e ol o n n a s wia dle c    o
+a b y z a s wia dlcz yc o s wia u o sci
+b y  w szy scy u  ie  zyli p  z e z nie g o
+8 flie b yl o n s wia u o scia
+le cz up o sla n y m j  a b y z a s wia dfcz y c o s  ia lo sci
+
+{'f': 13, ' ': 255, 'l': 33, 'a': 36, 'p': 7, 'o': 45, 'c': 24, 'z': 23, 't': 5, 'k': 4, 'u': 10, 'b': 12, 'y': 22, '1': 3, '\n': 19, 'w': 11, 'g': 7, 'i': 41, 'e': 28, 'm': 8, '2': 2, 'n': 15, '3': 3, 's': 30, 'r': 4, '4': 2, 'd': 4, '5': 1, 'j': 4, '6': 1, '7': 1, '8': 1}
