@@ -1,0 +1,29 @@
+3  f  o g osla wie mi u o o dzy w duuo uu  a b e wie m  d o  ich
+n a ezy k  ole s w o  ue bie sk e
+4 fue g os ,w,e  i  ktorzy sie s muu ca    o o wie m  o  i o e d
+i       i
+oe o e sze
+p
+5 fue g os ,w,e  i c, u  a b e wie m  o     a w  ,sne so
+p e u adu a zue u ie
+6 fue g os   w e  i  ktorzy  aukcn  i p  a gm a
+spra wie duu w osc   a b e wie m  o  i o e d a   asy ce nu
+7 fue g os   w,,e  i  uue,ue   i  u o o wie m  o u  mmuos e  dzia
+d
+o e s ao a
+f
+8 fue g os   w e  i czyste g o se  ca  a b e wie m  ounu f o g a
+e gu ad  c b e d a
+9 fue g os   w e  i  ktorzy  w oro w adz ja p e k oj  u o o wie m
+e nu b e d a   az w ammi sy  aumu f ozy u i
+0 2ue g os   w e  i  ktorzy c e  o a p  ze slad o w aunue d a
+spra wie duu w osc   a b e wie m  d o  ich n uezy krefes w o
+,  bi   k
+t
+m e o e s   e
+uu
+2ue g os   w,e  ije ste sc e  g d y tuu dziej w     uu  g aja i
+przes   duuu a w as i g d y z m e g o p o w o duu  m o wia
+kfauu  iw e  w szystk o zfe   a w  s
+
+{'3': 1, ' ': 383, 'f': 13, 'o': 57, 'g': 17, 's': 36, 'l': 3, 'a': 42, 'w': 36, 'i': 40, 'e': 76, 'm': 19, 'u': 57, 'd': 22, 'z': 20, 'y': 14, 'b': 9, 'c': 13, 'h': 2, '\n': 27, 'n': 8, 'k': 12, '4': 1, ',': 11, 't': 9, 'r': 9, 'p': 9, '5': 1, '6': 1, '7': 1, '8': 1, '9': 1, 'j': 5, '0': 1, '2': 2}

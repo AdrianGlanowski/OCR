@@ -235,9 +235,19 @@ def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower",
 
   all_locations = sorted(((*location, character.rep) for character in characters for location in character.locations), key= lambda x: x[2], reverse=True)
   res = char_locations_to_string(all_locations, *(image_to_array(path, rotate).shape), 5, 9, 9, 0.3)
+  
+  arr = path.split("/")
+  name = arr[-1].removesuffix(".png")
+  
+
+  with open(f"utils/result/{font}/{name}.txt", "w+") as file:
+    file.write(res + "\n" + str(count_chars(res)))
+
   print(res)
   print(count_chars(res))
 
-font = "rockwell"
-main(f"utils/tests/{font}/J1512.png", font, ["lower", "special", "polish"], 0) #0.013 max ://
+font = "arial" # lub rockwell
+name = "J1512"
+main(f"utils/tests/{font}/{name}.png", font, ["lower", "special", "polish"], 0) #0.013 max ://
+
 

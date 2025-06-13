@@ -1,0 +1,24 @@
+f a p e oza ku o y o  fo w ol
+a   o w o b y o u 9o g  1
+i f e gue u  o yjo  fo w o
+2     e b yfo   a p e oza ku u l o g
+3    szystk o przezj  e sie staue
+a b ez fue g o  ic  ue  ie stau o
+co sie staue
+j     j  j
+f    f i      l
+t
+o   e z  c e
+y     y
+a zy c e o yjo s w  u.osc a   u dzu
+5 a s wiau osc w c e  m osci s w  e ci
+i c e  m osc jej nue o g au ne
+6 f oj  w u  ue czfo wie k p os am y p  zez l o g
+j    muu o yjo n a uu ie 4
+7 f  zysze dj o   n a s wiad e ct w o
+aub y z  s w  ad czy c o s wia le soi
+jo y w szysoy u w e  zy h jo  zez  ue g o
+8 f ie jo yl e n s wia le soia
+le oz tp e sfa  yj  ab y zas w   d czy c o s w  auosci
+
+{'f': 13, ' ': 256, 'a': 27, 'p': 6, 'e': 39, 'o': 47, 'z': 23, 'k': 4, 'u': 27, 'y': 22, 'w': 18, 'l': 8, '\n': 22, 'b': 5, '9': 1, 'g': 7, '1': 1, 'i': 19, 'j': 16, '2': 1, '3': 1, 's': 28, 't': 7, 'r': 1, 'c': 18, '.': 1, 'd': 5, '5': 1, 'm': 4, 'n': 5, '6': 1, '4': 1, '7': 1, 'h': 1, '8': 1}

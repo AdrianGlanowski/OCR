@@ -1,0 +1,24 @@
+u osce o b yt i p  zysz osc   aszej   jozyz  y
+e dzysk a w szy  w l989 ro k u  m oz iw osc su w ere    e g o
+d e m o kra y czune g o stam o wie nu   o jej  osie
+m y      o d   o ski   w szyscy o o y w a e e
+1 ze czy o osp o u ej
+zau o w no  w e  zacy w 5 o g a
+b e d ace g o zro d e    pra w d y  sora wie duu w osc   d o bra i
+i  k
+o e    a
+p
+jak    ie p e dz e ajaoy  ej wiau y
+a  e u u w e  saum e  w au  e soi w,y w o dzacy z mu y ch zre d e
+re w  u w pu   w acu i w p o w     e  c acu w o b e c d o bra
+1    ki
+w so o   e o o    o s
+p      g
+w dzie cz u n aszy,m  pu zo dukeuu  za ich p  ace  za w auuke o
+m e p o d e gue so o kuupio n a o g  o mmm y  u e u au    u  za
+ku uuu e z  ke  ze ue n   w o  rze so jamusk uu  dzie dz ct w,e
+, au e duu i o ge!m o u dzkich w aute so   ch
+n a wiazujao d o n aj e p szy cu  rad y cju l  e  w szej  1 ru g ej
+ze czy o osp o u ej
+
+{'u': 51, ' ': 344, 'o': 58, 's': 28, 'c': 24, 'e': 59, 'b': 5, 'y': 24, 't': 4, 'i': 20, 'p': 14, 'z': 37, 'a': 40, 'j': 15, '\n': 22, 'd': 21, 'k': 14, 'w': 32, 'l': 2, '9': 2, '8': 1, 'r': 13, 'm': 13, 'g': 9, 'n': 8, '1': 3, '5': 1, ',': 4, 'h': 4, '!': 1}

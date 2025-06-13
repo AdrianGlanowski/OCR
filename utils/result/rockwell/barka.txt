@@ -1,0 +1,21 @@
+f a   kie d ys st     ad b  ze gue u
+,zuuk a   u dzu g o o w y cu jo ojsc zaj  mm
+j
+8
+o w o serc
+y
+to w 3ezy ch p  a w d
+f aunue  to fy   a mmmue sp ojrza es
+1 w.oje ust  dzis w yrze k y  m e uu ie
+w oja b au ke p oze s a wia m  n   o  ze g u
+f  ze m z fe b a no w y zacz  e dz s  o w
+jeste .  u b e gumm  czto wie k e u
+f4e mm sk au o e   sa re ce g o o w e
+f o p  acy z fo o a
+l czyste serce
+,f aunue  to fy   a mmmue sp ojrza es
+1 w oje ust  dzis w yrze k y  m,e uu ie
+w oja b au ke p oze s a wia m. n   o  ze g u
+f  ze m z fe b a no w y zacz  e dz s  o w
+
+{'f': 12, ' ': 202, 'a': 27, 'k': 8, 'i': 8, 'e': 44, 'd': 8, 'y': 14, 's': 21, 't': 9, 'b': 6, 'z': 28, 'g': 6, 'u': 27, '\n': 19, ',': 3, 'o': 30, 'w': 18, 'c': 11, 'j': 11, 'm': 18, '8': 1, 'r': 7, '3': 1, 'h': 1, 'p': 6, 'n': 6, '1': 2, '.': 3, '4': 1, 'l': 1}
