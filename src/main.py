@@ -2,6 +2,30 @@ import cv2 as cv
 import numpy as np
 import numpy.fft as npfft
 class Char:
+  """
+  A class that represents a character
+
+  Attributes
+  ----------
+  name: str
+    name of the corresponding file in /utils/chars/{fontname}/
+  path: str
+    path to said file
+  pixel_pattern: list[list[int]]
+    values of pixels in the image
+  locations: list[list[int, int, float]]
+    coordinates and score of found pattern
+  threshold: float
+    threshold under it can be said pattern was found
+
+  Methods
+  -------
+  find_locations(self, data_path, rotate)
+    prepares self.locations
+
+  draw(self, data_path, new_window = False)
+    saves image of found locations to /utils/found_locations, can be shown in a pop-up window
+  """
   def __init__(self, name, path, threshold, rep):
     self.name = name
     self.rep = rep
@@ -11,6 +35,15 @@ class Char:
   def __repr__(self):
     return self.rep
   def find_locations(self, data_path, rotate):
+    """
+    Loads data image and then uses DFT to assign found locations of a character
+
+    Args:
+      data_path (str): path to an image
+      rotate (float): how much should the image be rotated
+    Returns:
+      out (list[list[int, int, float]]]): coordinates and score of found pattern
+    """
     data_pixels = image_to_array(data_path, rotate)
     pattern_shape = self.pixel_pattern.shape
     pattern_pixels = pad_pattern(data_pixels.shape, self.pixel_pattern)
@@ -108,8 +141,16 @@ def count_chars(string):
       chars[c] = 1
   return chars
 
-def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower", "special"], rotate = 0): 
-  def init_chars():
+def main(path, fontname="arial", chars = ["lower", "special"], rotate = 0): 
+  def init_chars(path = path, chars = chars, rotate = rotate):
+    """
+    Prepare an array of class Char elements
+
+    Args:
+      
+    Returns:
+      out (list[Char]): an array of class Char elements with found locations ready
+    """
     lower_chars = {  
       'lower_a': (0.9, "a"),
       'lower_b': (0.9, "b"),
@@ -139,6 +180,7 @@ def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower",
       'lower_z': (0.9, "z")
     }
     
+    # for scanning polish text its better to exclude these
     if "polish" in chars:
       lower_chars.pop("lower_x")
       lower_chars.pop("lower_v")
@@ -175,8 +217,8 @@ def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower",
         character.find_locations(path, rotate)
         characters.append(character)
         character.draw(path, False)
+    
     return characters
-
 
   def char_locations_to_string(
     char_locations,
@@ -187,36 +229,39 @@ def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower",
     whitespace_width,
     alpha,
     ):
-    # Making one line truly one line
+
+    # scan for found locations
     number_of_letters_on_pixel_height = [0]*image_height
     for _, y, *_ in char_locations:
-        number_of_letters_on_pixel_height[y] += 1
+      number_of_letters_on_pixel_height[y] += 1
     sorted_lines = sorted(((y, num_of_letters) for y, num_of_letters in enumerate(number_of_letters_on_pixel_height)), key= lambda x: x[1], reverse=True)
 
-    actual_row = [i for i in range(image_height)]
+    many_pixel_row = [i for i in range(image_height)]
     for y, _ in sorted_lines:
-        if actual_row[y] != y or number_of_letters_on_pixel_height[y] < alpha * sorted_lines[0][1]:
+        #check if the line was already parsed and is dense enough - another noise filterring 
+        if many_pixel_row[y] != y or number_of_letters_on_pixel_height[y] < alpha * sorted_lines[0][1]:
             continue
+        
         for dy in range(-y_radius, y_radius + 1):
             if dy != 0 and 0 <= y + dy < image_height:
                 number_of_letters_on_pixel_height[y] += number_of_letters_on_pixel_height[y + dy]
                 number_of_letters_on_pixel_height[dy] = 0
-                actual_row[y + dy] = y
+                many_pixel_row[y + dy] = y
 
+    # making row of various pixels
     old_locations = char_locations
     line_content = {}
     for (x, old_y, score, char) in old_locations:
-        y = actual_row[old_y]
+        y = many_pixel_row[old_y]
         new_record = (y, x), (char, score)
         if y not in line_content:
             line_content[y] = [new_record]
         else:
             line_content[y].append(new_record)
 
-    # Remove multiple characters
+    # remove multiple characters
     chars_by_line = []
     for y in sorted(list(line_content.keys())):
-        # line_content[y].sort(key=lambda x: x[1])
         is_free = [True for _ in range(image_width)]
         letters_by_score = sorted(line_content[y], key=lambda x: x[1][1], reverse=True)
         remaining_letters = []
@@ -246,14 +291,11 @@ def main(path = "utils/tests/ewangelia.png", fontname="arial", chars = ["lower",
     with open(f"utils/results/{font}/{name}.txt", "w+") as file:
       file.write(res + "\n" + str(count_chars(res)))
 
-  
-  
   characters = init_chars()
   all_locations = sorted(((*location, character.rep) for character in characters for location in character.locations), key= lambda x: x[2], reverse=True)
-  res = char_locations_to_string(all_locations, *(image_to_array(path, rotate).shape), 5, 9, 9, 0.1)
-  
+  res = char_locations_to_string(all_locations, *(image_to_array(path, rotate).shape), 5, 9, 9, 0.1)  
   write_results_to_file(path, fontname, res)
-  print(res)
+
 
 
 
